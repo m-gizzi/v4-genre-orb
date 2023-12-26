@@ -14,6 +14,7 @@ gem 'redis', '>= 4.0.1'
 gem 'rubocop-performance', require: false
 gem 'rubocop-rails', require: false
 gem 'rubocop-rspec', require: false
+gem 'sidekiq', '~> 7.2'
 gem 'sprockets-rails'
 gem 'stimulus-rails'
 gem 'turbo-rails'
