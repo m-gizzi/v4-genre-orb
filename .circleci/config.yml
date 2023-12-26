@@ -13,6 +13,7 @@ jobs:
           name: Which bundler?
           command: bundle -v
       - ruby/install-deps
+      - ruby/rspec-test
       - ruby/rubocop-check
 
 workflows:
