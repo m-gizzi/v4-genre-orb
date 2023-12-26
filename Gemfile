@@ -13,6 +13,7 @@ gem 'rails', '~> 7.1.2'
 gem 'redis', '>= 4.0.1'
 gem 'rubocop-performance', require: false
 gem 'rubocop-rails', require: false
+gem 'rubocop-rspec', require: false
 gem 'sprockets-rails'
 gem 'stimulus-rails'
 gem 'turbo-rails'
@@ -20,6 +21,7 @@ gem 'tzinfo-data', platforms: %i[mswin mswin64 mingw x64_mingw jruby]
 
 group :development, :test do
   gem 'debug', platforms: %i[mri mswin mswin64 mingw x64_mingw]
+  gem 'rspec-rails', '~> 6.1.0'
 end
 
 group :development do
