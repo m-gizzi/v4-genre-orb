@@ -1,6 +1,7 @@
 require:
   - rubocop-rails
   - rubocop-performance
+  - rubocop-rspec
 
 AllCops:
   NewCops: enable
@@ -14,3 +15,7 @@ Rails/HasAndBelongsToMany:
 Metrics/BlockLength:
   Exclude:
     - 'config/environments/development.rb'
+
+Style/BlockComments:
+  Exclude:
+    - 'spec/spec_helper.rb'
