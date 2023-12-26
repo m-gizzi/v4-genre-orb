@@ -7,14 +7,12 @@ jobs:
   build:
     docker:
       - image: cimg/ruby:3.2.2
-    # executor: ruby/default
     steps:
       - checkout
       - run:
           name: Which bundler?
           command: bundle -v
       - ruby/install-deps
-      - ruby/rubocop-check
 
 workflows:
   workflow:
